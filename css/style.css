@@ -1,0 +1,19 @@
+body {
+    /* background: linear-gradient(pink, coral); */
+}
+
+.header {
+    outline: 1px solid red;
+    text-align: center;
+    margin: 20px;
+}
+
+.photo {
+    width: 200px;
+    border: 5px solid coral;
+    border-radius: 50%
+}
+
+.bday-age, .bday-date {
+    font-size: 25px;
+}
