@@ -1,6 +1,6 @@
-body {
-    /* background: linear-gradient(pink, coral); */
-}
+* {
+    box-sizing: border-box;
+} 
 
 .header {
     outline: 1px solid red;
@@ -16,4 +16,22 @@ body {
 
 .bday-age, .bday-date {
     font-size: 25px;
+}
+
+.gift-section {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    outline: 1px solid red;
+}
+
+.gift-image {
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/19/08/43/party-hat-5583887_960_720.png);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
 }
