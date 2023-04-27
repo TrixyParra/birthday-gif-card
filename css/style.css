@@ -2,10 +2,18 @@
     box-sizing: border-box;
 } 
 
+body {
+    background: linear-gradient(pink, coral); 
+}
+
+
+/** Header **/
+
 .header {
     outline: 1px solid red;
+    width: 600px;
     text-align: center;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .photo {
@@ -18,6 +26,9 @@
     font-size: 25px;
 }
 
+
+/** Gift Section **/
+
 .gift-section {
     width: 600px;
     display: flex;
@@ -29,9 +40,34 @@
     outline: 1px solid red;
 }
 
+.gift-hint {
+    margin-top: 0; 
+} 
+
 .gift-image {
     background-image: url(https://cdn.pixabay.com/photo/2020/09/19/08/43/party-hat-5583887_960_720.png);
     height: 400px;
     width: 400px;
     background-size: cover;
+    background-position: center;
+}
+
+#happy-gif:hover {
+    background-image: url(https://media.giphy.com/media/f9RHPRFxJhKTF0MQth/giphy.gif);
+}
+
+#reaction-gif:hover {
+    background-image: url(https://media.giphy.com/media/YnBntKOgnUSBkV7bQH/giphy.gif);
+}
+
+#describe-gif:hover {
+    background-image: url(https://media.giphy.com/media/uNvXBlop4OLwhkPQUS/giphy.gif);
+}
+
+#badass-gif:hover {
+    background-image: url(https://media.giphy.com/media/9qMIBqOJrtvfW/giphy.gif);
+}
+
+#cheers-gif:hover {
+    background-image: url(https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif);
 }
