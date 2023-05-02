@@ -47,7 +47,7 @@ body {
 } 
 
 .gift-image {
-    background-image: url(https://cdn.pixabay.com/photo/2020/09/19/08/43/party-hat-5583887_960_720.png);
+    background-image: url(/img/happy-birthday.png);
     height: 400px;
     width: 400px;
     background-size: cover;
