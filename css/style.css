@@ -1,9 +1,21 @@
+/** Font Styles **/
+/* font-family: 'Rammetto One', cursive;
+font-family: 'Aref Ruqaa', serif; */
+
+
+/** Colors Used **/
+/* #fff  
+#f88dad
+#8390fa 
+#1d2f6f  */
+
+
 * {
     box-sizing: border-box;
 } 
 
 body {
-    background: linear-gradient(pink, coral); 
+    background: linear-gradient(#f88dad, #8390fa); 
     margin: 0;
 }
 
@@ -11,17 +23,20 @@ body {
 /** Header **/
 
 .header {
-    outline: 1px solid red;
-    width: 600px;
+    /* width: 600px; */
     text-align: center;
+    color: #fff;
     padding: 10px;
     margin: 60px auto;
+    font-family: 'Rammetto One', cursive;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px #1d2f6f;
 }
 
 .photo {
     width: 200px;
-    border: 5px solid coral;
-    border-radius: 50%
+    border: 8px dotted #1d2f6f;
+    border-radius: 50%;
 }
 
 .bday-age, .bday-date {
@@ -32,14 +47,19 @@ body {
 /** Gift Section **/
 
 .gift-section {
-    width: 600px;
+    /* width: 600px; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
     padding: 10px;
     margin: auto;
     margin-bottom: 20px;
-    outline: 1px solid red;
+    font-family: 'Aref Ruqaa', serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-shadow: 0 0 3px #1d2f6f;
 }
 
 .gift-hint {
@@ -78,10 +98,12 @@ body {
 /** Footer **/
 
 footer {
-    background-color: tomato;
+    background-color: #1d2f6f;
     text-align: center;
     color: #fff;
     font-weight: bold;
     padding: 15px;
     margin-top: 60px;
+    font-family: 'Aref Ruqaa', serif;
+    letter-spacing: 2px;
 }
